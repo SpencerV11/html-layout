@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.whitebox {
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    bottom: 6%;
+    background: white;
+}
+.solid {
+    width: 90%;
+    height: 22%;
+    border: solid;
+    margin: 35px auto;
+    border-width: 5px;
+    
+}
+.purplerectangle {
+    width: 38px;
+    height: 120px;
+    position: absolute;
+    bottom: 75%;
+    left: 6%;
+    background: purple;
+}
+.greenrectangle {
+    width: 40%;
+    height: 165px;
+    background: green;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+.bluecircle {
+    height: 160px;
+    width: 160px;
+    background: lightblue;
+    border-radius: 50%;
+    margin-left: 55%;
+    position: absolute;
+    top: 6%;
+    right: 30%;
+}
+.dotted {
+    position: absolute;
+    top: 30%;
+    border: dotted;
+    width: 90%;
+    height: 30%;
+    border-width: 4px;
+    left: 4.5%;
+}
+.yellowbox {
+    position: absolute;
+    top: 21%;
+    width: 90%;
+    height: 65%;
+    background: lightyellow;
+    left: 5%;
+    box-shadow: 10px 5px;
+    color: rgb(66, 58, 58);
+}
+.linedbox {
+    position: absolute;
+    bottom: 5%;
+    width: 55%;
+    height: 30%;
+    left: 20%;
+    border: solid;
+    border-width: .1px;
+}
+.text {
+    text-align: center;
+    position: absolute;
+    bottom: 40%;
+    color: purple;
+    letter-spacing: 20px;
+    left: 17%;
+
+}
